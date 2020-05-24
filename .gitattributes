@@ -1,4 +1,7 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+*.css linguist-vendored=false
 *.css linguist-detectable=false
+*.html linguist-vendored=false
+*.html linguist-detectable=false
+*.js linguist-vendored=false
 *.js linguist-detectable=true
