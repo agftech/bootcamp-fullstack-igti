@@ -1,0 +1,98 @@
+body {
+    background-color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.handleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    padding: 2.5%;
+    width: 25%;
+    height: 100%;
+    background: #f6f8fa;
+    border: 1px solid lightgray;
+    border-radius: 1em;
+    position: relative;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+#rgb-red {
+    color: red;
+}
+
+#rgb-green {
+    color: green;
+}
+
+#rgb-blue {
+    color: blue;
+}
+
+.handleControls {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.handleControls label {
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+}
+
+.handleInputs {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.handleInputs input {
+    margin: 5px;
+    text-align: center;
+}
+
+.handleResult {
+    margin-top: 25px;
+    width: 8em;
+    height: 8em;
+    border: 1px solid lightgray;
+    border-radius: 1em;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    font-size: 0.8rem;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    padding: 5px;
+    font-weight: lighter;
+}

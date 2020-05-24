@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Picker</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+
+    <div class="handleContainer">
+
+        <h1>RGB Color Picker</h1><br>
+
+        <div class="handleControls">
+
+            <div class="handleInputs">
+                <label id="rgb-red">(R):</label>
+                <input type="range" value="0" min="0" max="255" step="1" onchange="onChangeRGBValue(event, 'red')" />
+                <input type="text" value="0" size=3 name="redText" id="redText" disabled />
+            </div>
+
+            <div class="handleInputs">
+                <label id="rgb-green">(G):</label>
+                <input type="range" value="0" min="0" max="255" step="1" onchange="onChangeRGBValue(event, 'green')" />
+                <input type="text" value="0" size=3 name="greenText" id="greenText" disabled />
+            </div>
+
+            <div class="handleInputs">
+                <label id="rgb-blue">(B):</label>
+                <input type="range" value="0" min="0" max="255" step="1" onchange="onChangeRGBValue(event, 'blue')" />
+                <input type="text" value="0" size="3" name="blueText" id="blueText" disabled />
+            </div>
+
+        </div>
+        <br>
+
+        <div class="handleResult"></div>
+
+        <span id="handleColorResult"></span>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+<footer>
+    <br>
+    <p><a href="http://igti.com.br" target="blank"></a> IGTI Bootcamp 2020: Full Stack Developer/p>
+        <p> Practical Work of Module 1</p>
+</footer>
+
+</html>
