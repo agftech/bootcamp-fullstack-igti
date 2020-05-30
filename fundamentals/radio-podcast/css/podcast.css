@@ -1,0 +1,138 @@
+  body {
+    margin: auto;
+    padding: auto;
+}
+
+.titlePadcast {
+  content: "";
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    box-shadow: 5px 5px 1px  #26a69a;
+    min-width: 50%;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    border-radius: 30px;
+    color: #26a69a;
+}
+
+#inputFrequency {
+    font-size: 200%;
+    margin: 10px 0 30px 0;
+    width: 10%;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 8px  #26a69a;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 10px;
+    color: white;
+    background-color: #26a69a;
+}
+
+input[type=range] {
+  min-width: 100%;
+  border: 1.5px solid #26a69a;
+  box-shadow: 3px 2px 8px 2px  #26a69a;
+  height: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%; 
+  background: #26a69a;
+  cursor: pointer; 
+  align-items: center;
+}
+
+input[type=range]:focus {
+  background-color: white;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #26a69a;
+  cursor: pointer;
+}
+
+h1{
+    margin: 20px 0px 25px 8px;
+    padding: 5px;
+}
+
+#imgTitlePadcast {
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 2px 8px  #26a69a;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 50px;
+    box-shadow: 2px 2px 8px  #26a69a;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+hr {
+  box-shadow: 0.1px 0.1px 8px 0.1px  #26a69a;
+  border: 0.1px solid #26a69a;
+}
+
+a {
+  margin: 5px;
+  padding: 15px;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#divPodcasts {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#infoPodcasts {
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  float: top;
+  text-align: center;
+}
+
+.iframePodcasts {
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: bottom;
+  padding: 10px;
+  box-shadow: 0.1px 0.1px 8px 0.1px  lightgrey;
+  position: relative;
+}
