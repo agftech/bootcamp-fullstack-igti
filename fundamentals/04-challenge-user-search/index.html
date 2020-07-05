@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/materialize.min.css" />
+    <title>Challenge: User Search</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="text-center mt-4">Challenge: User Search</h1>
+      <span id="loading">
+        <div>
+          <h5>Loading...</h5>
+        </div>
+        <div class="progress">
+          <div class="indeterminate"></div>
+        </div>
+      </span>
+    </header>
+
+    <hr />
+
+    <div class="container">
+      <div class="searchNames">
+        <input
+          id="inputText"
+          type="text"
+          name="inputText"
+          placeholder="Search"
+        />
+        <button
+          type="submit"
+          id="btnSearch"
+          class="btn btn-primary float-right disabled"
+        >
+          Search
+        </button>
+      </div>
+
+      <div class="container-divs">
+        <div class="user-container">
+          <div class="user-list">
+            <h5 id="summaryUsers">No filtered users</h5>
+            <hr />
+            <div id="tabUsers"></div>
+          </div>
+        </div>
+
+        <div class="statistic-container">
+          <div class="statistic-list">
+            <h5 id="summaryStatistic">Nothing to display</h5>
+            <hr />
+            <div id="tabStatistic"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <footer>
+      <a href="http://igti.com.br" target="blank"></a> &copy IGTI 2020 -
+      Bootcamp Online: Desenvolvedor Full Stack
+    </footer>
+
+    <script type="text/javascript" src="./js/users.js"></script>
+  </body>
+</html>
