@@ -1,0 +1,99 @@
+body {
+  padding: 10px;
+}
+header {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0.5px solid #26a69a;
+  bottom: solid;
+  background: fixed;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50px;
+}
+
+.container-divs {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+  border: 1px solid #26a69a;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #26a69a;
+}
+
+.country-container {
+  margin: 10px;
+  border: 1px solid #26a69a;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.country {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  justify-content: left;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #26a69a;
+  padding: 5px;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.country-list {
+  padding: 10px;
+}
+
+.favorite-list-container {
+  margin: 10px;
+  font-size: 1.1rem;
+  border: 1px solid #26a69a;
+  border-radius: 10px;
+  width: 40%;
+  padding: 8px;
+  height: 28%;
+}
+
+.favorite-list {
+  margin-left: 5px;
+}
+
+img {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  border: 1.2px solid #26a69a;
+  box-shadow: 1.2px 1px 1px #26a69a;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+}
